@@ -27,4 +27,6 @@ jobs:
           curl --location --request \
           GET 'http://api.github.com/repos/srahul3/oci-image-sdk/actions/package/1.0.0-multilayer?artifact_type=zipball' \
           --header 'Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' -O
+          pwd
+          ls
 

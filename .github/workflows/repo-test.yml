@@ -1,0 +1,102 @@
+# This is a basic workflow to help you get started with Actions
+
+name: AOP Repos Dispatch listening
+
+on:
+  repository_dispatch:
+    types: [aop-test-trigger]
+  workflow_dispatch:
+
+jobs:
+  build: # make sure build/ci work properly
+    runs-on: macos-latest
+    steps:
+       - name: AOP Action
+         uses: aop-sanity-test/aop-action-repo-1@1.0.0
+         with:
+              milliseconds : 1
+       - name: AOP Action
+         uses: aop-sanity-test/aop-action-repo-2@1.0.0
+         with:
+              milliseconds : 1
+       - name: AOP Action
+         uses: aop-sanity-test/aop-action-repo-3@1.0.0
+         with:
+              milliseconds : 1
+       - name: AOP Action
+         uses: aop-sanity-test/aop-action-repo-4@1.0.0
+         with:
+              milliseconds : 1
+       - name: AOP Action
+         uses: aop-sanity-test/aop-action-repo-5@1.0.0
+         with:
+              milliseconds : 1
+       - name: AOP Action
+         uses: aop-sanity-test/aop-action-repo-6@1.0.0
+         with:
+              milliseconds : 1
+       - name: AOP Action
+         uses: aop-sanity-test/aop-action-repo-7@1.0.0
+         with:
+              milliseconds : 1
+       - name: AOP Action
+         uses: aop-sanity-test/aop-action-repo-8@1.0.0
+         with:
+              milliseconds : 1
+       - name: AOP Action
+         uses: aop-sanity-test/aop-action-repo-9@1.0.0
+         with:
+              milliseconds : 1
+       - name: AOP Action
+         uses: aop-sanity-test/aop-action-repo-10@1.0.0
+         with:
+              milliseconds : 1
+       - name: AOP Action
+         uses: aop-sanity-test/aop-action-repo-11@1.0.0
+         with:
+              milliseconds : 1
+       - name: AOP Action
+         uses: aop-sanity-test/aop-action-repo-12@1.0.0
+         with:
+              milliseconds : 1
+       - name: AOP Action
+         uses: aop-sanity-test/aop-action-repo-13@1.0.0
+         with:
+              milliseconds : 1
+       - name: AOP Action
+         uses: aop-sanity-test/aop-action-repo-14@1.0.0
+         with:
+              milliseconds : 1
+       - name: AOP Action
+         uses: aop-sanity-test/aop-action-repo-15@1.0.0
+         with:
+              milliseconds : 1
+       - name: AOP Action
+         uses: aop-sanity-test/aop-action-repo-16@1.0.0
+         with:
+              milliseconds : 1
+       - name: AOP Action
+         uses: aop-sanity-test/aop-action-repo-17@1.0.0
+         with:
+              milliseconds : 1
+       - name: AOP Action
+         uses: aop-sanity-test/aop-action-repo-18@1.0.0
+         with:
+              milliseconds : 1
+       - name: AOP Action
+         uses: aop-sanity-test/aop-action-repo-19@1.0.0
+         with:
+              milliseconds : 1
+       - name: AOP Action
+         uses: aop-sanity-test/aop-action-repo-20@1.0.0
+         with:
+              milliseconds : 1
+       - name: AOP Action
+         uses: aop-sanity-test/aop-action-repo-21@1.0.0
+         with:
+              milliseconds : 1       
+       - name: AOP Action
+         uses: aop-sanity-test/aop-action-repo-22@1.0.0
+         with:
+              milliseconds : 1
+       
